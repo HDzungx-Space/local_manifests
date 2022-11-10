@@ -1,1 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<manifest>
+
+
+<remote name="gitlab" fetch="https://gitlab.com/hdzungx" />
+<remote name="github" fetch="https://github.com/hdzungx-space" />
+
+<!-- Device Trees -->
+<project path="device/xiaomi/munch" name="device_xiaomi_munch" remote="github" revision="cherish13" />
+
+<project path="device/xiaomi/sdm8250-common" name="device_xiaomi_sm8250-common" remote="github" revision="cherish13" />
+
+<!-- Vendor Trees-->
+<project path="vendor/xiaomi/munch" name="vendor_xiaomi_munch" remote="gitlab" revision="13" />
+
+<project path="vendor/xiaomi/sm8250" name="vendor_xiaomi_sm8250-common" remote="gitlab" revision="13" />
+
+<!-- Kernel-->
+<project path="kernel/xiaomi/sm8250" name="realking-kernel-SM8250" remote="github" revision="munch" />
+
+<!-- Firmware-->
+<project path="vendor/xiaomi/munch-firmware" name="vendor_xiaomi_munch-firmware" remote="gitlab" revision="13" />
+
+</manifest>
