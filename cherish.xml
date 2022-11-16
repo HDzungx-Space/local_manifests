@@ -5,6 +5,7 @@
 
 <remote name="gitlab" fetch="https://gitlab.com/hdzungx" />
 <remote name="github" fetch="https://github.com/hdzungx-space" />
+<remote name="clang" fetch="https://gitlab.com/Roxor-007" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/munch" name="device_xiaomi_munch" remote="github" revision="cherish13" />
@@ -16,10 +17,16 @@
 
 <project path="vendor/xiaomi/sm8250" name="vendor_xiaomi_sm8250-common" remote="gitlab" revision="13" />
 
+<project path="vendor/xiaomi/munch-miuicamera" name="vendor_xiaomi_miuicamera" remote="gitlab" revision="13" />
+
 <!-- Kernel-->
-<project path="kernel/xiaomi/sm8250" name="n0kernel_xiaomi_munch" remote="github" revision="munch" />
+<project path="kernel/xiaomi/sm8250" name="n0kernel_xiaomi_munch" remote="github" revision="munch-staging" />
 
 <!-- Firmware-->
 <project path="vendor/xiaomi/munch-firmware" name="vendor_xiaomi_munch-firmware" remote="gitlab" revision="13" />
 
+<!-- Clang-->
+<project path="prebuilts/clang/host/linux-x86/clang-Weeb" name="WeebX_clang16" remote="clang" revision="main" />
+
 </manifest>
+
