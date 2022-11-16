@@ -17,7 +17,7 @@
 <project path="vendor/xiaomi/sm8250" name="vendor_xiaomi_sm8250-common" remote="gitlab" revision="13" />
 
 <!-- Kernel-->
-<project path="kernel/xiaomi/sm8250" name="realking-kernel-SM8250" remote="github" revision="munch" />
+<project path="kernel/xiaomi/sm8250" name="n0kernel_xiaomi_munch" remote="github" revision="munch" />
 
 <!-- Firmware-->
 <project path="vendor/xiaomi/munch-firmware" name="vendor_xiaomi_munch-firmware" remote="gitlab" revision="13" />
