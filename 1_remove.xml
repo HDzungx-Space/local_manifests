@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remove-project path="frameworks/av" name="android_frameworks_av" remote="cherish" />
+    <remove-project path="frameworks/base" name="android_frameworks_base" remote="cherish" />
+    <remove-project path="packages/apps/CherishSettings" name="android_packages_apps_Cherish" remote="cherish" />
+</manifest>
